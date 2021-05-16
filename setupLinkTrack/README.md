@@ -1,5 +1,7 @@
 {% note %}
-DISCLAIMER: This plugin has been officially deprecated since the introduction of the AppMeasurement library in 2013. The documentation and code provided herein is for reference only. Do not use in new Analytics implementations!
+
+**Note:** This plugin has been officially deprecated since the introduction of the AppMeasurement library in 2013. The documentation and code provided herein is for reference only. Do not use in new Analytics implementations!
+
 {% endnote %}
 
 # setupLinkTrack
