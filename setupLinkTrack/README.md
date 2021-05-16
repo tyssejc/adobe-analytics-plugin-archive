@@ -1,8 +1,4 @@
-{% note %}
-
-**Note:** This plugin has been officially deprecated since the introduction of the AppMeasurement library in 2013. The documentation and code provided herein is for reference only. Do not use in new Analytics implementations!
-
-{% endnote %}
+***Note: This plugin has been officially deprecated since the introduction of the AppMeasurement library in 2013. The documentation and code provided herein is for reference only. Do not use in new Analytics implementations!***
 
 # setupLinkTrack
 
@@ -18,7 +14,7 @@ The anchor tag can track the link name differently, depending on the page encodi
 
 This plugin was originally created mimic historical HBX functionality.  As such, it will still continue to do so by using the following syntax in the name attribute in the anchor, and can allow a developer to track specific links different without the need for additional JavaScript.  For example:
 ```html
-<a href="homepage.html"name="&lid=FooterHomePage&lpos=Footer">Home Page</a>
+<a href="homepage.html" name="&lid=FooterHomePage&lpos=Footer">Home Page</a>
 ```
 
 The plugin also cleanses any input with the built in String Cleansing (s.cleanStr) function by removing:
