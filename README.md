@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Once upon a time, the core Adobe Analytics (formerly Omniture SiteCatalyst, formerly HitBox HBX) JavaScript tracking library could be augmented by using snippets of code called "plugins". Plugins were developed by consultants (or savvy implementation developers) and were added to a special section in the core tracking library code. (This can still be done in Adobe Launch by adding code to the Custom Tracker section of the Analytics extension configuration screen, but it's recommended that you use the official [Common Analytics Plugin](https://exchange.adobe.com/experiencecloud.details.102744.common-analytics-plugins.html) extension instead.)
+Once upon a time, the core Adobe Analytics (formerly [Omniture](https://en.wikipedia.org/wiki/Omniture) SiteCatalyst, formerly [WebSideStory](https://en.wikipedia.org/wiki/WebSideStory) [HitBox](https://en.wikipedia.org/wiki/Hitbox_(web_analytics)) HBX) JavaScript tracking library could be augmented by using snippets of code called "plugins". Plugins were developed by consultants (or savvy implementation developers) and were added to a special section in the core tracking library code. (This can still be done in Adobe Launch by adding code to the Custom Tracker section of the Analytics extension configuration screen, but it's recommended that you use the official [Common Analytics Plugin](https://exchange.adobe.com/experiencecloud.details.102744.common-analytics-plugins.html) extension instead.)
 
 Over the years, Adobe has dropped support for some of these plugins, leading to implementations that refer to plugins but for which there is no longer any documentation. This repo is an attempt to bridge these gaps.
 
